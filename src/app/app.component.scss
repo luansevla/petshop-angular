@@ -1,3 +1,21 @@
 .example-spacer {
     flex: 1 1 auto;
 }
+
+.example-container {
+    width: 500px;
+    margin-bottom: 0;
+    height: calc(100% - 6.8%);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+}
+
+.example-sidenav {
+    padding: 20px;
+}
